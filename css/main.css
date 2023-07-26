@@ -1,0 +1,660 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bod {
+    width: 100%;
+    display: flex;
+
+}
+
+.bod .nav-main {
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    border-right: 0.3px solid rgb(126, 126, 126);
+}
+
+.bod .nav-main .nav-con {
+    width: 78%;
+    margin: auto;
+    height: 350px;
+    border-bottom: 0.5px solid #939296;
+}
+
+.bod .nav-main .nav-con .logo {
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+.bod .nav-main .nav-con .logo img {
+    height: 28px;
+    margin-right: 20px;
+}
+
+.bod .nav-main .nav-con .home {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.bod .nav-main .nav-con .home img {
+    height: 30px;
+    margin-right: 30px;
+}
+
+.bod .nav-main .nav-con .home h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.bod .nav-main .nav-con .explore {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.bod .nav-main .nav-con .explore img {
+    height: 30px;
+    margin-right: 30px;
+}
+
+.bod .nav-main .nav-con .explore h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.bod .nav-main .nav-con .library {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.bod .nav-main .nav-con .library img {
+    height: 30px;
+    margin-right: 30px;
+}
+
+.bod .nav-main .nav-con .library h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.bod .nav-main .nav-con .upgrade {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.bod .nav-main .nav-con .upgrade img {
+    height: 30px;
+    margin-right: 30px;
+}
+
+.bod .nav-main .nav-con .upgrade h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.play {
+    display: flex;
+    margin-top: 70px;
+    padding: 10px 50px;
+    background-color: #55555588;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.none1 {
+    display: none;
+}
+
+.play img {
+    height: 18px;
+    margin-right: 5px;
+}
+
+.play p {
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.likes {
+    height: 60px;
+    color: white;
+    margin-top: 30px;
+}
+
+.likes .pin {
+    display: flex;
+}
+
+.likes h3 {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.likes .pin img {
+    height: 17px;
+    margin-right: 10px;
+}
+
+.likes .pin p {
+    margin-top: -5px;
+    color: #98a4a1;
+}
+
+.bod .main {
+    width: 80%;
+    margin-left: 20%;
+    height: 2200px;
+    background-color: black;
+}
+
+.bod .main .nav-bar {
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    /* border-bottom: 0.3px solid rgb(126, 126, 126); */
+    border-left: 0.3px solid rgb(126, 126, 126);
+}
+
+.bod .main .nav-bar .nav-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.bod .main .nav-bar .nav-content .img2 {
+    opacity: 0;
+}
+
+.bod .main .nav-bar .nav-content .left {
+    width: 70%;
+}
+
+.bod .main .nav-bar .nav-content input {
+    margin: auto;
+    border: 1px solid #939296;
+    border-radius: 10px;
+    width: 55%;
+    padding: 15px 0px 10px 40px;
+    background: #9392961f url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 15px center;
+}
+
+input::placeholder {
+    color: #939296;
+    font-size: 18px;
+    padding-right: 400px;
+}
+
+.bod .main .nav-bar .nav-content .right {
+    display: flex;
+    width: 30%;
+}
+
+.bod .main .nav-bar .nav-content .right .img {
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.bod .main .nav-bar .nav-content .right .img img {
+    height: 35px;
+}
+
+.bod .main .nav-bar .nav-content .right .btn1 button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-weight: 550;
+    background-color: #78909c;
+    border: none;
+    font-size: 20px;
+}
+
+.bod .main .content {
+    margin-top: 100px;
+}
+
+.bod .main .content .main-content {
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.bod .main .content .main-content .banner1 button {
+    color: #ffff;
+    background-color: #2222225d;
+    padding: 10px 18px;
+    margin-right: 5px;
+    border-radius: 7px;
+    border: 0.5px solid whitesmoke;
+    font-size: 16px;
+}
+
+.bod .main .content .main-content .banner2 {
+    display: flex;
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.bod .main .content .main-content .banner2 button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 27px;
+    font-weight: 550;
+    border: none;
+}
+
+.bod .main .content .main-content .banner2 .txt {
+    margin-top: 6px;
+    color: white;
+}
+
+.bod .main .content .main-content .banner2 .txt p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.bod .main .content .main-content .banner2 .txt h3 {
+    font-size: 30px;
+}
+
+.bod .main .content .main-content .banner3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.bod .main .content .main-content .banner3 .img1 {
+    height: 62px;
+    width: 62px;
+    margin-right: 20px;
+}
+
+.bod .main .content .main-content .banner3 p img {
+    height: 5px;
+    width: 5px;
+}
+
+.bod .main .content .main-content .banner3 .one {
+    display: flex;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.bod .main .content .main-content .banner3 .txt {
+    margin-top: 15px;
+}
+
+.bod .main .content .main-content .banner3 .txt h4 {
+    font-size: 20px;
+}
+
+.bod .main .content .main-content .banner3 .txt p {
+    font-size: 11px;
+    margin-top: 6px;
+}
+
+.bod .main .content .main-content .banner4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.bod .main .content .main-content .banner4 h3 {
+    font-size: 33px;
+    color: white;
+    font-weight: 550;
+}
+
+.bod .main .content .main-content .banner4 button {
+    padding: 8px 15px;
+    background-color: transparent;
+    font-size: 22px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.bod .main .content .main-content .banner5 {
+    display: flex;
+    margin-top: 45px;
+    color: white;
+}
+
+
+.bod .main .content .main-content .banner5 .one {
+    width: 25%;
+    height: 250px;
+}
+
+.bod .main .content .main-content .banner5 img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.bod .main .content .main-content .banner5 p {
+    margin-top: 5px;
+}
+
+.bod .main .content .main-content .banner6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    color: white;
+}
+
+.bod .main .content .main-content .banner6 h3 {
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.bod .main .content .main-content .banner6 img {
+    margin-left: 20px;
+}
+
+.bod .main .content .main-content .banner7 {
+    display: flex;
+    margin-top: 20px;
+    overflow-x: scroll;
+}
+
+.banner7::-webkit-scrollbar {
+    display: none;
+}
+
+.bod .main .content .main-content .banner7 .one {
+    height: 300px;
+    width: 15%;
+    margin-right: 65px;
+}
+
+.bod .main .content .main-content .banner7 img {
+    height: 180px;
+    width: 180px;
+}
+
+.bod .main .content .main-content .banner7 h3 {
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.bod .main .content .main-content .banner7 p img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.bod .main .content .main-content .banner7 p {
+    color: rgb(196, 193, 193);
+    font-size: 15px;
+}
+
+.bod .main .content .main-content .banner8 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 80px;
+}
+
+.bod .main .content .main-content .banner8 .left {
+    display: block;
+}
+
+.bod .main .content .main-content .banner8 img {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bod .main .content .main-content .banner8 .left .top h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.bod .main .content .main-content .banner8 .left .bottom h3 {
+    font-size: 35px;
+}
+
+@media screen and (max-width:820px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .bod .main .nav-bar .nav-content .img2 {
+        opacity: 1;
+        margin-right: 340px;
+        height: 35px;
+        width: 105px;
+
+    }
+
+
+    .bod .main .nav-bar .nav-content {
+        padding-top: 30px !important;
+        margin-right: 100px !important;
+    }
+
+    .none {
+        display: flex;
+        height: 100px;
+    }
+
+    .nav-bar {
+        background-color: black !important;
+    }
+
+    .home {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 0px 20px 20px !important;
+    }
+
+    .home img {
+        height: 25px !important;
+        margin: 0px !important;
+    }
+
+    .home h3 {
+        font-size: 16px !important;
+    }
+
+    .nav-con {
+        text-align: center;
+        border-bottom: transparent !important;
+        justify-content: center;
+    }
+
+    .play,
+    .likes,
+    .pin,
+    .log,
+    .nav-content .left,
+    .banner3 .second {
+        display: none;
+    }
+
+    .main-content {
+        margin: 0px !important;
+        width: 100% !important;
+    }
+
+    .nav-bar {
+        background-color: black;
+    }
+
+    .banner1,
+    .banner2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner3 {
+        justify-content: space-evenly !important;
+    }
+
+    .banner4 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .banner5 {
+        justify-content: space-evenly;
+    }
+
+    .banner5 img,
+    .banner7 .one img {
+        height: 140px !important;
+        width: 140px !important;
+    }
+
+    .banner7 p {
+        font-size: 13px !important;
+    }
+
+    .banner7 h3 {
+        font-size: 14px !important;
+    }
+
+    .nav-content {
+        display: flex;
+        justify-content: right !important;
+        margin-right: 100px !important;
+    }
+
+    .banner6{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner8{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner7{
+        margin-left: 30px;
+    }
+
+    .banner3{
+        margin-left: 30px;
+    }
+
+}
+
+
+@media screen and (max-width:425px) {
+    .bod .nav-main {
+        width: 0%;
+        display: none;
+    }
+
+    .banner6{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .banner8{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .banner7{
+        margin-left: 25px;
+    }
+
+    .bod .main .nav-bar .nav-content .img2 {
+        opacity: 1;
+        margin-right: 130px;
+        height: 35px;
+        width: 105px;
+
+    }
+
+    .bod .main .nav-bar .nav-content{
+        margin-right: 40px !important;
+    }
+
+    .nav-bar {
+        border-left: none !important;
+    }
+
+    .bod .main {
+        width: 100% !important;
+        margin: 0 !important;
+        overflow-x: hidden;
+    }
+
+    .banner1 {
+        overflow-x: scroll;
+        width: 100%;
+        justify-content: space-around;
+        padding-left: 60px;
+
+    }
+
+    .banner1::-webkit-scrollbar {
+        display: none;
+    }
+
+    .banner3 .third {
+        display: none;
+    }
+
+    .banner5 img,
+    .banner7 .one img {
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .banner7 p,
+    .banner5 p {
+        font-size: 10px !important;
+    }
+
+    .banner7 h3,
+    .banner5 h3 {
+        font-size: 11px !important;
+    }
+
+    .banner6 h3,
+    .banner8 .bottom h3 {
+        font-size: 20px !important;
+        margin-top: 10px
+    }
+
+    .banner8 .top h3 {
+        font-size: 15px !important;
+    }
+
+    .banner6 img,
+    .banner8 img {
+        height: 45px !important;
+        margin: 0px !important;
+    }
+
+    .banner6,
+    .banner8 {
+        margin-top: 20px !important;
+    }
+
+}
